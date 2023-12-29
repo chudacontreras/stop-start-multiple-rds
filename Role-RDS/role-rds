@@ -1,0 +1,6 @@
+Nombre role: role-lambda-start-stop-rds
+Description: Allows Lambda functions to call AWS services on your behalf. 
+
+Politicas Agregadas:
+AWS: CloudWatchLogsFullAccess
+Custom: lambda-rds-start-stop-policy
